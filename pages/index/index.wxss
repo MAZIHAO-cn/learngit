@@ -1,0 +1,44 @@
+.nav{
+  height: 1800rpx;
+  background-image: url(http://www.s3tu.com/images/2020/11/20/background108e4e.jpg);
+  display: flex;
+  
+}
+.nav .dingwei{
+  height: 100rpx;
+  width: 100rpx;
+  padding-right:60rpx;
+}
+
+.nav .dingwei image{
+  padding-left: 38rpx;
+  width: 44rpx;
+  height: 44rpx;
+  display: flex;
+}
+.nav .dingwei .txt{
+  padding-left: 36rpx;
+  font-size: 24rpx;
+  color: #fff;
+
+}
+.nav .search{
+  padding: 10rpx 0rpx;
+  height: 68rpx;
+}
+.nav .search navigator{
+  height: 100%;
+  width: 450rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cecece;
+  border-radius: 36rpx;
+  color: #666;
+}
+.nav .search navigator image{
+  padding-right: 370rpx;
+  padding-top: 1rpx;
+  height: 44rpx;
+  width: 44rpx;
+}

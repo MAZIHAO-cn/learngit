@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/send/send",
+    "pages/my/my",
+    "pages/wine",
+    "pages/wine/wine"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#5900ac",
+    "navigationBarTitleText": "吧约",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#484848",
+    "selectedColor": "#141f69",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "点酒",
+        "iconPath": "images/wine.png",
+        "selectedIconPath": "images/wine_h.png"
+      },
+      {
+        "pagePath": "pages/send/send",
+        "text": "赠送",
+        "iconPath": "images/send.png",
+        "selectedIconPath": "images/send_h.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "订单",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list_h.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_h.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

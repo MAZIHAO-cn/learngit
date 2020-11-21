@@ -1,0 +1,15 @@
+<view class="nav">
+    <view class="dingwei">
+      <image src="/images/dingwei.png"></image>
+      <text class="txt">定位</text>
+      
+    </view>
+    <view class="search">
+        
+        <navigator open-type="navigate">
+          <image src="/images/search1.png"></image>
+        </navigator>
+      </view>
+      <view></view>
+    
+</view>

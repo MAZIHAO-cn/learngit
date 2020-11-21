@@ -1,0 +1,8 @@
+<view class="byback">
+  <view class="nav">
+    <view class="dingwei">
+      <image src=""></image>
+      <text class="txt">定位</text>
+    </view>
+  </view>
+</view>
